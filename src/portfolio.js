@@ -204,7 +204,7 @@ const workExperiences = {
       company: "MunchIn",
       companylogo: require("./assets/images/munchin.png"),
       date: "September 2020 - November 2020",
-      desc: "Worked on the MunchIn App (Beta Version), a social media App for foodiesm",
+      desc: "Worked on the MunchIn App (Beta Version), a social media App for foodies",
       descBullets:[
         "Developed an App from scratch and laid down initial working of the app (React Navigation) and build 90% of app’s UI with a number of functionalities and also created the authentication for the app.",
         "Created a peer to peer messaging interface with the help of Firebase Realtime Database",
