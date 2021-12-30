@@ -242,9 +242,9 @@ const bigProjects = {
       // ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/mymaharaj.png"),
       projectName: "MyMaharaj",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "It is a cross-platform application to bring consumers and producers from the cooking industry to a single place",
       footerLink: [
         // {
         //   name: "Visit Website",
