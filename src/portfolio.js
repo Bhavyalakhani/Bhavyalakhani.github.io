@@ -123,10 +123,11 @@ const educationInfo = {
       logo: require("./assets/images/DJSCE.jpg"),
       subHeader: "Bachelors of Engineering in Computer Engineering",
       duration: "August 2018 - current",
-      desc: "Participated in the research of Machine Learnings, NLP and published 3 papers.",
+      desc: "Participated in the research of Machine Learning, NLP and published 3 papers.",
       descBullets: [
         "Maintained an average of 9.61 GPA of upto 6 semesters",
-        "Treasurer of the Computer Department for Annual Festival called Trinity"
+        "Treasurer of the Computer Department for Annual Festival called Trinity",
+        "Part of the department's Cricket and Football Team"
       ]
     },
     {
@@ -139,6 +140,18 @@ const educationInfo = {
         "Took Science as a Stream in High School",
         "Scored 92.15% (Top 1% in the state) and scored 191/200 in computer science",
         "Scored 154/200 in MHT-CET (700th rank out of 1L students)"
+      ]
+    },
+    {
+      schoolName: "NES National Public School",
+      logo: require("./assets/images/NES.jpg"),
+      subHeader: "Secondary School (ICSE)",
+      duration: "April 2013 - May 2016",
+      desc: "Ranked top 5% in the program. Took Economic Applications as the elective.",
+      descBullets: [
+        "Scored 91.33% in the board exams.",
+        "School Topper in Economic Applications.",
+        "Part of the School's Cricket and Football Team"
       ]
     }
   ]
@@ -179,10 +192,11 @@ const workExperiences = {
       company: "JP Morgan Chase & Co.",
       companylogo: require("./assets/images/JPMC.png"),
       date: "June 2021 – August 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Worked as a Software Engineer in the CIB ( Corporate and Investment Banking) Tech",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Enabled Jaeger Tracing on an Event-driven and Distributed System, so the trace events across mutliple system boundaries can be monitored centrally and enabled it on various services such as Cassandra, Kafka, JMS, etc",
+        "Reviewed static scan reports for their projects and fixed multiple vulnerabilities present in their project and deployed the changes in their project to their cloud",
+        "Created a CI CD pipeline which reduces the deployment time significantly and deployed it on all phases of SDLC (Software Development Lifecycle) following agile methodology"
       ]
     },
     {
@@ -190,7 +204,13 @@ const workExperiences = {
       company: "MunchIn",
       companylogo: require("./assets/images/munchin.png"),
       date: "September 2020 - November 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked on the MunchIn App (Beta Version), a social media App for foodiesm",
+      descBullets:[
+        "Developed an App from scratch and laid down initial working of the app (React Navigation) and build 90% of app’s UI with a number of functionalities and also created the authentication for the app.",
+        "Created a peer to peer messaging interface with the help of Firebase Realtime Database",
+        "Designed and implemented the application with interactive screens using React Native",
+        "Contributed to all phases of Software Development Lifecycle following agile methodology",
+      ]
     },
   ]
 };
@@ -207,29 +227,40 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PROJECTS I DELVED INTO AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+      image: require("./assets/images/automl.png"),
+      projectName: "AutoML",
+      projectDesc: "Web App for Automated Machine Learning",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
         //  you can add extra buttons here.
-      ]
+      // ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      projectName: "MyMaharaj",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/eyeris.png"),
+      projectName: "Eyeris Web",
+      projectDesc: "E-Commerce app for Patni Opticians",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
       ]
     }
   ],
@@ -246,48 +277,50 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Neural Machine Translation from Polish to Engllish using various techniques",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Co-authored and presented the paper in CIESD 2021, which will be published in Web of Science and Scopus indexed AIP Publishing Journal.",
+      image: require("./assets/images/papernmt.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "View Paper",
+          // url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Code",
+          url: "https://github.com/Bhavyalakhani/NEURAL-MACHINE-TRANSLATION-FROM-POLISH-TO-ENGLISH-USING-VARIOUS-TECHNIQUES"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Automated Data Driven preprocessing and training of classification models",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Co-authored and presented the paper in ICCCT 2021, will be published in IEEE Xplore.",
+      image: require("./assets/images/paperautoml.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Paper",
+          // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        },
+        {
+          name:"Code",
+          url:"https://github.com/Bhavyalakhani/Auto-ML"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Stroke Prediction using Machine Learning",
+      subtitle: "Co-authored and presented the paper in ICACET 2021, will be published in Scopus Indexed IOP Publishing Journal .",
+      image: require("./assets/images/paperstroke.png"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "View Paper", 
+        url: ""
+      },
+        // {
+        //   name: "Code",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
